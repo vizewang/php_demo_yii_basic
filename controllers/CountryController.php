@@ -39,10 +39,9 @@ class CountryController extends Controller
     }
 
 
-
     public function actionTest()
     {
-\Yii::$app->request->post('ContactForm');
+        \Yii::$app->request->post('ContactForm');
     }
 }
 
@@ -54,9 +53,11 @@ function __autoload($class)
 class test2
 {
 }
+
 class test1
 {
 }
+
 class testChidren extends test1
 {
 }
